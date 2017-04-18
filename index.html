@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modelos de negocio | Prof. Dr. J.L. Salmeron, Ing.</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Slidify">
+  <meta name="author" content="Prof. Dr. Jose L. Salmeron, Eng.">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/phone.css"
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/solarized_light.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="libraries/frameworks/io2012/js/slides"
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+
+  <link rel="stylesheet" href = "libraries/widgets/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href = "libraries/widgets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href = "libraries/widgets/quiz/css/jquery-quiz.css">
+<link rel="stylesheet" href = "assets/css/lists.css">
+<link rel="stylesheet" href = "assets/css/quotes.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
+<link rel="stylesheet" href = "assets/css/sizes.css">
+<link rel="stylesheet" href = "assets/css/tables.css">
+<link rel="stylesheet" href = "assets/css/text.css">
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+
+    <!-- LOGO SLIDE -->
+<!--
+    <slide class="nobackground">
+      <article class="flexbox vcenter">
+        <span>
+          <img width='500px' src="assets/img/presentation.png">
+        </span>
+      </article>
+    </slide>
+-->
+    <!-- END LOGO SLIDE -->
+
+
+    <!-- TITLE SLIDE -->
+    <!-- Should I move this to a Local Layout File? -->
+    <slide class="title-slide segue nobackground">
+      <aside class="gdbar">
+        <img src="assets/img/upologo.jpg">
+      </aside>
+      <hgroup class="auto-fadein">
+        <h1>Modelos de negocio</h1>
+        <h2>Empresas Tecnológicas</h2>
+        <!--h2>Master en Dirección de Empresas</h2>
+        <h2>Master en Recursos Humanos</h2-->
+        <p><a href="http://member.acm.org/~salmeron/">Prof. Dr. José Luis Salmeron, Ing.</a><br/>Catedrático de Universidad, Universidad Pablo de Olavide</p>
+      </hgroup>
+      <a href="https://joselsalmeron.github.io" class="example">
+        homepage
+      </a>
+
+      <footer class = 'source'>
+        <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/'>
+        <img width = '80px' src = 'http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png'>
+        </a>
+      </footer>
+    </slide>
+
+    <!-- SLIDES -->
+
+
+    <!-- SLIDE 0 -->
+<slide class="" id="slide-0" style="background:;">
+  <hgroup>
+    <h2>Objetivos de aprendizaje</h2>
+  </hgroup>
+  <article>
+    <p>Los objetivos que se persiguen en este tema son los siguientes:</p>
+
+<ol>
+    <li>Comprender los modelos de negocio de empresas tecnológicas</li>
+    <li>Comprender la relación entre los productos tecnológicos y un modelo de negocio</li>
+    <li>Explicar la importancia de la tecnología en la empresa actual</li>
+    <li>Utilización de metodologías de generación de modelos de negocio</li>
+</ol>
+      <footer class="source"><a href="https://joselsalmeron.github.io/">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+
+    <!-- SLIDE 1 -->
+<slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Contenidos</h2>
+  </hgroup>
+  <article>
+    <p>Los contenidos de este tema son los siguientes:</p>
+
+<ol>
+    <li>Introducción al entorno tecnológico</li>
+    <li>Big Data</li>
+    <li>Data Science</li>
+    <li>Tecnologías para la eficiencia</li>
+    <li>Modelo Canvas de Negocio</li>
+</ol>
+<!--
+    <p>Ejercicios</p>
+<ol class = "build">
+    <li>El soporte de los Sistemas de Información a la estrategia corporativa</li>
+    <li>Evolución de la integración de Sistemas de Información</li>
+    <li>Escenarios para la elección de herramientas</li>
+</ol>
+-->
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 2 -->
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Introducción al entorno tecnológico</h2>
+
+  </hgroup>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/internet.png" width="500" class="">
+
+      <p class="red3">Todos estos elementos y otros consituyen un nuevo entorno para cualquier startup</p>
+
+    </article>
+    </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 3 -->
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Introducción al entorno tecnológico</h2>
+    <h3>Elementos</h3>
+  </hgroup>
+  <article>
+    <p class="blue3">Un nuevo entorno</p>
+    <ul  class="build">
+        <li><b>Social media</b>. Plataformas de comunicación online donde el contenido <mark>lo crea el usuario</mark> con tecnologías de la web 2.0</li>
+        <li><b>Inteligencia de Negocio (BI)</b>. Aplicaciones para el análisis de datos negocio. Con la llegada de la computación en la nube, el <u>BI ha dado un salto a SaaS</u> y la posibilidad de personalizar determinados módulos en un </u>PaaS</u>. Se incorpora el análisis predictivo.
+        <li><b>Internet de las Cosas (IoT)</b>. La interconexión digital de objetos cotidianos con Internet permite la medición de todo tipo de datos y prevenir casos de enfermedad, seguimiento médico o riesgo de una catástrofe natural.</li>
+        <li><b>Cloud computing</b>. Conexión por medio de una red del intercambio de datos de multitud de dispositivos conectados: servidores, ordenadores de sobremesa, ordenadores portátiles, smartphone y tablet. Tipos de nubes: pública, privada e híbrida.</li>
+
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 4 -->
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Introducción al entorno tecnológico</h2>
+    <h3>Elementos</h3>
+  </hgroup>
+  <article>
+    <p class="blue3">Un nuevo entorno</p>
+    <ul  class="build">
+        <li><b>Big Data</b>. Análisis y almacenamiento de grandes cantidades de datos estructurados y semiestructurados y los procedimientos empleados para encontrar patrones teniendo en cuenta el origen, captura y otros detalles como volumen, velocidad, variedad, veracidad, viabilidad, visualización y valor de los datos.</li>
+        <li><b>Data Science</b>. Ciencia que estudia la extracción de conocimiento a partir de los datos y el procedimiento de obtener información valiosa de los mismos. </li>
+    </ul>
+
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 5 -->
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Big Data</h2>
+    <h3>Conceptos</h3>
+  </hgroup>
+  <div class="columns-2">
+  <article>
+    <p>Big Data es la clave para entender las relaciones entre los usuarios o clientes conectados permanentemente, pal margen de la analítica interna de datos de las compañías.</p>
+    <div class="alert alert-danger" role="alert">
+      <p>Según las previsiones, en 2020 más de 25 mil millones de dispositivos estarán conectados a Internet, acrecentando un volumen de datos que a finales de 2013 ya se estimaba en 4,4 billones de GB y que llegará a multiplicarse por 10 en tan solo 6 años.</p>
+    </div>
+
+    <p>Las redes sociales permiten la investigación de un determinado mercado y el comportamiento de consumidores particulares o un colectivo que sigue una temática.</p>
+
+    <p>En este sentido, la información la dan los usuarios, a través de sus aportaciones, comentarios o valoraciones, o bien, objetos que van ligados a una serie de palabras clave. Ello posibilita a las empresas el seguimiento e interpretación de la calificación de su producto.</p>
+
+    <article class="flexbox vcenter">
+      <img src="./assets/img/bigdata.png" width="300" class="reflect">
+      </div>
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+
+</slide>
+
+<!-- SLIDE 6 -->
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Big Data</h2>
+    <h3>Fuentes de datos</h3>
+  </hgroup>
+  <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/bigdata2.png" width="600" class="reflect">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+
+  </div>
+</article>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+
+</slide>
+
+<!-- SLIDE 7 -->
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Big Data</h2>
+    <h3>Fuentes de datos</h3>
+  </hgroup>
+  <div>
+    <article>
+      <p class="blue3">Tipos de datos que incluye el Big Data:</p>
+      <ul>
+        <li><b>Estructurados</b>: datos bien definidos y ordenados. Las bases de datos relacionales y las hojas de cálculo son ejemplos.</li>
+        <li><b>No estructurados</b>: no son almacenados en una base de datos relacional y sin estructuras de datos predefinidas y carecen de un formato específico. Ejemplos: PDF, documentos multimedia, texto y emails.</li>
+        <li><b>Semiestructurados</b>: definidos por metadatos, como el lenguaje <a href="https://www.w3schools.com/html/default.asp">HTML</a>, <a href="http://www.xml.org">XML</a> o <a href="http://json.org">JSON</a> y utilizan marcadores para separar los elementos de la información.</li>
+      </ul>
+    </article>
+  </div>
+
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+
+</slide>
+
+<!-- SLIDE 8 -->
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Data Science</h2>
+    <h3>Procesos</h3>
+  </hgroup>
+  <div class="columns-2">
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/ds1.png" width="450" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/ds2.png" width="250" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+
+<!-- SLIDE 9 -->
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Data Science</h2>
+    <h3>Ejemplos</h3>
+  </hgroup>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/ds3.png" width="850" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 10 -->
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Eficiencia técnica relativa</h3>
+  </hgroup>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi1.png" width="600" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 11 -->
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Eficiencia técnica relativa</h3>
+  </hgroup>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi2.png" width="570" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 12 -->
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Eficiencia técnica relativa</h3>
+  </hgroup>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi3.png" width="1000" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 13 -->
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Minería de procesos</h3>
+  </hgroup>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi4.png" width="700" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 14 -->
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Minería de procesos</h3>
+  </hgroup>
+  <div class="columns-2">
+      <article>
+      <p>La <b>Gestión de Procesos de Negocio (BPM)</b> es por lo general un <u>enfoque de arriba hacia abajo</u>.
+
+      <ol>
+        <li>Se empieza por el diseño de su proceso en un modelo de alto nivel.</li>
+        <li>A continuación, configura un sistema para la gestión y el control de su proceso.</li>
+      </ol>
+      <p>Este sistema coordina el trabajo entre los empleados y otros recursos de la organización.</p>
+      </article>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi5.png" width="300" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 15 -->
+<slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Minería de procesos</h3>
+  </hgroup>
+  <div class="columns-2">
+      <article>
+      <p>La <b>Minería de Procesos</b> es por lo general un <u>enfoque de abajo hacia arriba</u>.
+
+    <div class="alert alert-danger" role="alert">
+      <p>Las TI registran todas las etapas de su proceso de ejecución. Se obtiene un modelo del proceso a partir de estos datos. De esta manera, el proceso real, y las reglas de negocio reales, se pueden descubrir automáticamente.</p>
+    </div>
+      </article>
+    <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi5.png" width="300" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 16 -->
+<slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Minería de procesos</h3>
+  </hgroup>
+  <div class="columns-2">
+      <article>
+      <p>¿Disponemos de un modelo de cómo se debe realizar el proceso? Con la minería de procesos se obtiene información objetiva sobre si en realidad se seguirá lo planificado.</p>
+
+      <p>Es posible que tenga un proceso bien definido, pero no realmente soportado por los sistemas TI. Ahora se puede ver por primera vez cómo ese proceso se maneja en la vida real.</p>
+
+      <p>La minería de procesos también permite comparar procesos.</p>
+
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi6.png" width="500" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 17 -->
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>Tecnologías para la eficiencia</h2>
+    <h3>Minería de procesos</h3>
+  </hgroup>
+  <div class="columns-2">
+    <article>
+      <p>La minería de procesos funciona <b>para cualquier proceso</b> que se pueda observar.</p>
+
+      <p>Se han analizado procesos de uso de la <i>vida real</i> de los dispositivos de consumo, sistemas médicos, y los sistemas integrados de gran escala.</p>
+
+      <p>Si un proceso no es observable sin embargo, puede estar dotado de <u>instrumentos para producir los datos de uso</u> detallados. </p>
+
+      <p>El análisis de estos datos con la minería de procesos da información valiosa sobre funcionalidades de usuarios y cómo navegar por un producto digital.</p>
+    </article>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/efi7.png" width="500" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+    </div>
+
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 18 -->
+<slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>Modelo Canvas de Negocio</h2>
+  </hgroup>
+  <div>
+    <article class="flexbox vcenter">
+      <img src="./assets/img/canvas.png" width="700" class="">
+
+      <footer class="source">Prof. Dr. J.L. Salmeron, Ing.</footer>
+    </article>
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+  </article>
+</slide>
+
+<!-- SLIDE 19 -->
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Ejercicio</h2>
+    <h3>Evaluación</h3>
+  </hgroup>
+  <div>
+    <article>
+      <p><b>Descripción</b>: Desarrollar un modelo de negocio basado en el análisis de datos para un sector concreto (energía, automóvil, defensa, salud, deportes…), donde destaque por su innovación y tecnología; así como por ofrecer datos de interés al cliente que desea comprar esa solución de negocio.</p>
+
+      <p><b>Metodología/pautas</b>: Se trata de analizar una StartUp o empresa de rápido crecimiento, para conocer todos los procesos desde la idea a la consolidación de la empresa. De esta manera, nos acercaremos a su modelo de negocio, tipo de cliente, solución y realizaremos una alternativa para un sector concreto.</p>
+
+      <p><b>Criterios de evaluación:</b>La creatividad, investigación y el aporte de ejemplos concretos son las claves para tener una buena evaluación, sin dejar de lado la exposición de ideas innovadoras en el caso planteado.</p>
+
+      <blockquote>
+        <p>Sugerencia: Se puede utilizar una herramienta online para el canvas.</p>
+        <footer><a href="http://bmfiddle.com/f/#/">Fiddle</a></footer>
+      </blockquote>
+
+    </article>
+
+  </div>
+      <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+
+</slide>
+
+
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src="./assets/img/upologo.jpg"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h3>&lt;¡Gracias por la atención!&gt;</h3>
+    <footer class="source"><a href="https://joselsalmeron.github.io">Prof. Dr. J.L. Salmeron, Ing.</a></footer>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+
+  <!--[if IE]>
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+<!-- Grab CDN jQuery, fall back to local if offline -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
+<!-- Load Javascripts for Widgets -->
+<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<script src='libraries/widgets/bootstrap/js/bootstrap.min.js'></script>
+<script>
+$(function (){
+  $("#example").popover();
+  $("[rel='tooltip']").tooltip();
+});
+</script>
+<script src='libraries/widgets/quiz/js/jquery.quiz.js'></script>
+<script src='libraries/widgets/quiz/js/mustache.min.js'></script>
+<script type="text/javascript">
+ $('.quiz').find('li:has(em)').addClass('quiz-answer')
+ $('li.quiz-answer em').replaceWith(function(){
+   return $(this).contents()
+ })
+ $('.quiz').find('li').addClass('quiz-option')
+ $.quiz();
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+</html>
